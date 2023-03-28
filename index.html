@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div class="max-w-[1200px] mx-auto px-8">
+      <!-- Header -->
+      <div class="w-full h-screen">
+        <div class="hidden w-full py-6 lg:flex justify-between items-center">
+          <div class="logo">
+            <img src="" />
+          </div>
+          <ul class="header-nav">
+            <li>
+              <a href="">HOME</a>
+            </li>
+            <li>
+              <a href="">SERVICES</a>
+            </li>
+            <li>
+              <a href="">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="">RESUME</a>
+            </li>
+            <li>
+              <a href="">CONTACT</a>
+            </li>
+          </ul>
+          <div>
+            <button type="button" class="btn bg-danger">Download</button>
+          </div>
+        </div>
+        <!-- MOBILE HEADER -->
+        <div class="lg:hidden w-full py-6 flex flex-col relative">
+          <div class="w-full px-4 flex justify-between">
+            <div class="logo">
+              <img src="" />
+            </div>
+            <button type="button" class="menu-button">show</button>
+          </div>
+          <ul
+            class="hidden header-nav mobile-menu flex flex-col absolute top-[100px] z-[11]"
+          >
+            <li>
+              <a href="">HOME</a>
+            </li>
+            <li>
+              <a href="">SERVICES</a>
+            </li>
+            <li>
+              <a href="">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="">RESUME</a>
+            </li>
+            <li>
+              <a href="">CONTACT</a>
+            </li>
+            <li>
+              <button type="button" class="btn bg-danger">Download</button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Header -->
+
+        <!-- Main Introduction -->
+        <div class="grid grid-cols-1 md:grid-cols-2 h-[80%] relative">
+          <div class="left-pane h-full flex justify-center items-end z-[10]">
+            <div class="flex flex-col items-center md:items-start">
+              <h1 class="text-[21px]">
+                Hello <span class="text-danger">I'm </span>
+              </h1>
+              <h1
+                class="text-[40px] md:text-[70px] lg:text-[80px] font-bold font-cinzel"
+              >
+                Sajith P J
+              </h1>
+              <h3 class="text-[18px] md:text-[30px]">Frontend Developer</h3>
+              <div class="">
+                <p
+                  class="font-[200] mt-4 line-he ight-1 text-[13px] text-center md:text-left"
+                >
+                  A JavaScript developer with the entrepreneurial mindset. I
+                  combine my two years of experience with the the super powers
+                  of JavaScript to satisfy your requirements.
+                </p>
+              </div>
+              <div class="mt-4 md:mt-12">
+                <p class="tracking-[1px] text-center md:text-left">
+                  FIND ME ON
+                </p>
+                <div class="flex mt-4">
+                  <div class="mr-4">
+                    <button type="button" class="social-icon">
+                      <img src="./images/svg/linkedin.svg" />
+                    </button>
+                  </div>
+                  <div class="mr-4">
+                    <button type="button" class="social-icon">
+                      <img src="./images/svg/instagram.svg" />
+                    </button>
+                  </div>
+                  <div>
+                    <button type="button" class="social-icon">
+                      <img src="./images/svg/github.svg" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute md:relative top-0 left-0 w-full flex md:block justify-center items-center"
+          >
+            <div
+              class="relative flex justify-start md:justify-center items-center"
+            >
+              <img src="./images/portfolio.png" width="400px" class="" />
+            </div>
+          </div>
+        </div>
+        <!-- Main Introduction -->
+      </div>
+
+      <!-- SERVICES -->
+      <div class="services">
+        <hr
+          class="my-[100px]"
+          style="border: 2px solid #ff436ae3; border-radius: 50%"
+        />
+        <div class="">
+          <p class="text-danger">MY SERVICES</p>
+          <h1 class="text-[50px] font-bold">What I Do</h1>
+        </div>
+        <div class="mt-4 mb-[100px] grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="service-options">
+            <img src="./images/svg/landingpage.svg" width="150" />
+            <div class="service-caption mt-4">
+              <h2 class="text-2xl font-semibold mb-4">Frontend Development</h2>
+              <p class="font-normal text-gray-500 text-[13px] tracking-[1px]">
+                I'm a professional frontend developer. I have specialised and
+                more focused in React JS. I love to work with complex UI and
+                animations.Nothing to worry, JavaScript and me are enough to
+                make your UI perfect
+              </p>
+            </div>
+          </div>
+          <div class="service-options">
+            <img src="./images/svg/backend.svg" width="90" />
+            <div class="mt-6">
+              <h2 class="text-2xl font-semibold mb-4">Backend Development</h2>
+              <p class="font-normal text-gray-500 text-[13px] tracking-[1px]">
+                Yes, I can handle your backend in Node JS, and your data will be
+                more secured and structured in Mongo DB. May be the backend will
+                be more difficult to handle, but I'm always ready to challenge
+                myself with your requirements!
+              </p>
+            </div>
+          </div>
+          <div class="service-options">
+            <img src="./images/svg/tutorial.svg" width="90" />
+            <div class="mt-4">
+              <h2 class="text-2xl font-semibold mb-4">Personal Mentoring</h2>
+              <p class="font-normal text-gray-500 text-[13px] tracking-[1px]">
+                I'm always here to develop new talents. It's great to share what
+                I have learned, how I learned and the working experience to the
+                beginners. Don't worry freshers, I will help you to be in the
+                flow, while you are stucked. You just try to dream !
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SERVICES -->
+      <!-- WORKD -->
+      <div>
+        <div>
+          <h1 class="text-center font-bold text-[50px]">Recent Works</h1>
+        </div>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 my-[100px]"
+        >
+          <div class="p-4 work-container">
+            <div
+              class="work-wrapper w-full h-[300px] rounded-[10px] relative overflow-hidden"
+            >
+              <img src="./images/reliva.png" class="w-full h-full" />
+              <div
+                class="work-hover absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10"
+              >
+                <img src="" />
+                <h1 class="text-[21px] font-semibold tracking-[1px]">
+                  Reliva Global
+                </h1>
+                <button
+                  type="button"
+                  class="px-4 py-2 rounded-[7px] border border-white"
+                >
+                  view
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 work-container">
+            <div
+              class="work-wrapper w-full h-[300px] rounded-[10px] relative overflow-hidden"
+            >
+              <img src="./images/easynaac.png" class="w-full h-full" />
+              <div
+                class="work-hover absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10"
+              >
+                <h1 class="text-[21px] font-semibold tracking-[1px]">
+                  Easy NAAC
+                </h1>
+                <button
+                  type="button"
+                  class="px-4 py-2 rounded-[7px] border border-white"
+                >
+                  View
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 work-container">
+            <div
+              class="work-wrapper w-full h-[300px] rounded-[10px] relative overflow-hidden"
+            >
+              <img src="./images/reliva.png" class="w-full h-full" />
+              <div
+                class="work-hover absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10"
+              >
+                <h1 class="text-[21px] font-semibold tracking-[1px]">
+                  React-former
+                </h1>
+                <button
+                  type="button"
+                  class="px-4 py-2 rounded-[7px] border border-white"
+                >
+                  View
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!-- <img src="./images/easynaac.png" /> -->
+          </div>
+        </div>
+      </div>
+      <!-- WORKD -->
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-8">
+        <div class="experience-container">
+          <div>
+            <h1 class="text-[50px]">Experience</h1>
+            <p class="text-danger text-[16px] font-semibold">2021-2023</p>
+          </div>
+
+          <div class="experience-wrapper">
+            <div class="experience">
+              <h4>VASS Systems</h4>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                Frontend team lead, React JS developer
+              </p>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                03/2022 - ongoing
+              </p>
+              <p
+                class="mt-2 font-normal text-gray-500 text-[13px] tracking-[1px]"
+              >
+                I played a main role in VASS Systems as a Team Lead of the
+                Frontend team. I Led and worked on their projects. I handled the
+                full frontend project named NAAC Easy, the product of VASS
+                Systems. I have developed and deployed a package called
+                react-former(@sajith-pj/react-former) while working on the VASS
+                Systems.
+              </p>
+            </div>
+          </div>
+          <div class="experience-wrapper">
+            <div class="experience">
+              <h4>Tyler Petroleum</h4>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                Frontend developer
+              </p>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                11/2021 - 03/2022
+              </p>
+              <p
+                class="mt-2 font-normal text-gray-500 text-[13px] tracking-[1px]"
+              >
+                I have led a complete React project as per the requirement of
+                the company. The requirement was to create a CDN which will
+                provide a payment gateway. I have solved this React JS. This is
+                one of the most challenging projects that I have worked on.
+                Great Company, Great Experience
+              </p>
+            </div>
+          </div>
+          <div class="experience-wrapper">
+            <div class="experience">
+              <h4>Spotix Private Limited</h4>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                MERN stack developer intern
+              </p>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                11/2021 - 03/2022
+              </p>
+              <p
+                class="mt-2 font-normal text-gray-500 text-[13px] tracking-[1px]"
+              >
+                The actual start to my career is from Spotix. I have played a
+                role of a MERN stack developer. I got a wonderful opportunity to
+                develop my skill on MERN stack development. I contributed for
+                two projects within two months
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="experience-container">
+          <div>
+            <h1 class="text-[50px]">Education</h1>
+            <p class="text-danger text-[16px] font-semibold">2016-2018</p>
+          </div>
+
+          <div class="experience-wrapper">
+            <div class="experience">
+              <h4>Bachelor of Computer Science</h4>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                College Of Applied Science, Kuzhalmannam
+              </p>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                07/2018 - 03/2021
+              </p>
+              <p
+                class="mt-2 font-normal text-gray-500 text-[13px] tracking-[1px]"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, reiciendis porro adipisci vitae delectus tempore
+                quisquam esse cum autem totam iure dolor. Vel cumque obcaecati
+                omnis. Eum consectetur veritatis qui!
+              </p>
+            </div>
+          </div>
+          <div class="experience-wrapper">
+            <div class="experience">
+              <h4>Plus Two(10+2)</h4>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                G.H.S.S Kottayi, Palakkad
+              </p>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                06/2016 - 03/2018
+              </p>
+              <p
+                class="mt-2 font-normal text-gray-500 text-[13px] tracking-[1px]"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, reiciendis porro adipisci vitae delectus tempore
+                quisquam esse cum autem totam iure dolor. Vel cumque obcaecati
+                omnis. Eum consectetur veritatis qui!
+              </p>
+            </div>
+          </div>
+          <div class="experience-wrapper">
+            <div class="experience">
+              <h4>S.S.L.C</h4>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                G.H.S Bemmannur, Palakkad
+              </p>
+              <p
+                class="mt-4 font-normal text-gray-400 text-[13px] tracking-[1px]"
+              >
+                03/2016
+              </p>
+              <p
+                class="mt-2 font-normal text-gray-500 text-[13px] tracking-[1px]"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, reiciendis porro adipisci vitae delectus tempore
+                quisquam esse cum autem totam iure dolor. Vel cumque obcaecati
+                omnis. Eum consectetur veritatis qui!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center flex-col">
+        <div class="flex justify-center items-center flex-col mb-4">
+          <p class="text-danger">CONTACT</p>
+          <h1 class=" text-[25px] lg:text-[50px] font-bold">Connect With Me</h1>
+        </div>
+        <div class="w-full grid grid-cols-12 gap-x-4 contacts">
+          <div class="col-span-12 lg:col-span-3">
+            <a href="tel:+91 8137886298">
+              <div class="w-full contact-info mb-4 flex-col">
+                <img src="./images/svg/phone.svg" class="mb-4" width="35" />
+                <span> +91 8137886298</span>
+              </div>
+            </a>
+            <a href="mailto:sajithpjofficialme@gmail.com">
+              <div class="w-full contact-info flex-col">
+                <img src="./images/svg/mail.svg" class="mb-4" width="35" />
+                <span> sajithpjofficialme@gmail.com</span>
+              </div>
+            </a>
+          </div>
+          <div class="mt-8 lg:mt-0 col-span-12 lg:col-span-9 contact-form">
+            <div class="input-group">
+              <label for="name" class="input-label">Name</label>
+              <input type="text" class="input" name="name" id="name" />
+            </div>
+            <div class="input-group">
+              <label for="name" class="input-label">Email</label>
+              <input type="email" class="input" name="email" id="email" />
+            </div>
+            <div class="input-group">
+              <label for="name" class="input-label">Phone</label>
+              <input type="text" class="input" name="name" id="name" />
+            </div>
+            <div class="input-group">
+              <label for="message" class="input-label">Message</label>
+              <textarea
+                class="input"
+                name="message"
+                id="message"
+                id=""
+                cols="30"
+                rows="5"
+              ></textarea>
+            </div>
+            <button type="button" class="btn bg-danger">Send Message</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[50vh] flex justify-center items-center flex-col footer">
+        <div class="flex justify-center items-center">
+          <div class="logo">
+            <img src="" />
+          </div>
+          <h1 class="ml-6 font-cinzel text-[50px] font-bold">SAJITH P J</h1>
+        </div>
+        <div class="flex mt-4">
+          <div class="footer-icons">
+            <img src="./images/svg/linkedin.svg" />
+          </div>
+          <div class="footer-icons">
+            <img src="./images/svg/instagram.svg" />
+          </div>
+          <div class="footer-icons">
+            <img src="./images/svg/linkedin.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      const btn = document.querySelector(".menu-button");
+      const menu = document.querySelector(".mobile-menu");
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+    <!-- TAILWIND CSS -->
+  </body>
+</html>

@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000;
+  --dark: #222728;
+  --light-dark: #221F21;
+  --primary-green: #00bd95;
+  --seconday-green: #17cd8a;
+  --dark-green: #165750;
+  --white: #fff;
+  --bg-danger: #f6083a;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.font-cinzel {
+  font-family: "Cinzel", serif;
+}
+.text-green {
+  color: var(--primary-green);
+}
+
+/* BUTTONS */
+.btn {
+  padding: 12px 32px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* BUTTONS */
+
+/* COLORS */
+.text-danger {
+  color: var(--bg-danger) !important;
+}
+/* COLORS */
+/*  BACKGROUND */
+.bg-danger {
+  background: var(--bg-danger) !important;
+}
+/*  BACKGROUND */
