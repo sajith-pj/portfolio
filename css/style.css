@@ -11,7 +11,7 @@
 :root {
   --black: #000;
   --dark: #222728;
-  --light-dark: #221F21;
+  --light-dark: #221f21;
   --primary-green: #00bd95;
   --seconday-green: #17cd8a;
   --dark-green: #165750;
@@ -24,6 +24,7 @@ body {
   color: var(--white);
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  position: relative;
 }
 
 .font-cinzel {
