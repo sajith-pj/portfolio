@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAJITH P J</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,7 +30,7 @@
           </div>
           <ul class="header-nav">
             <li>
-              <a href="">HOME</a>
+              <a href="/">HOME</a>
             </li>
             <li>
               <a href="#services">SERVICES</a>
@@ -45,7 +46,25 @@
             </li>
           </ul>
           <div>
-            <button type="button" class="btn bg-danger">Download</button>
+            <button type="button" class="btn bg-danger center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-download"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span class="ml-2"> Resume </span>
+            </button>
           </div>
         </div>
         <!-- MOBILE HEADER -->
@@ -67,7 +86,7 @@
             </div>
             <ul class="header-nav relative flex flex-col">
               <li>
-                <a href="">HOME</a>
+                <a href="/">HOME</a>
               </li>
               <li>
                 <a href="#services">SERVICES</a>
@@ -81,8 +100,26 @@
               <li>
                 <a href="#contact">CONTACT</a>
               </li>
-              <li>
-                <button type="button" class="btn bg-danger">Download</button>
+              <li class="center">
+                <button type="button" class="btn bg-danger center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-download"
+                  >
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  <span class="ml-2">Resume</span>
+                </button>
               </li>
             </ul>
           </div>
@@ -120,19 +157,31 @@
                 </p>
                 <div class="flex mt-4">
                   <div class="mr-4">
-                    <button type="button" class="social-icon">
+                    <a
+                      href="https://www.linkedin.com/in/sajith-p-j/"
+                      class="block social-icon"
+                      target="_blank"
+                    >
                       <img src="./images/svg/linkedin.svg" />
-                    </button>
+                    </a>
                   </div>
                   <div class="mr-4">
-                    <button type="button" class="social-icon">
+                    <a
+                      href="https://www.instagram.com/dev_.sajith/"
+                      class="block social-icon"
+                      target="_blank"
+                    >
                       <img src="./images/svg/instagram.svg" />
-                    </button>
+                    </a>
                   </div>
                   <div>
-                    <button type="button" class="social-icon">
+                    <a
+                      href="https://github.com/sajith-pj"
+                      class="block social-icon"
+                      target="_blank"
+                    >
                       <img src="./images/svg/github.svg" />
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -387,14 +436,6 @@
               >
                 07/2018 - 03/2021
               </p>
-              <p
-                class="mt-2 font-normal text-gray-500 text-[13px] tracking-[1px]"
-              >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Possimus, reiciendis porro adipisci vitae delectus tempore
-                quisquam esse cum autem totam iure dolor. Vel cumque obcaecati
-                omnis. Eum consectetur veritatis qui!
-              </p>
             </div>
           </div>
           <div class="experience-wrapper">
@@ -410,14 +451,14 @@
               >
                 06/2016 - 03/2018
               </p>
-              <p
+              <!-- <p
                 class="mt-2 font-normal text-gray-500 text-[13px] tracking-[1px]"
               >
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Possimus, reiciendis porro adipisci vitae delectus tempore
                 quisquam esse cum autem totam iure dolor. Vel cumque obcaecati
                 omnis. Eum consectetur veritatis qui!
-              </p>
+              </p> -->
             </div>
           </div>
           <div class="experience-wrapper">
@@ -433,14 +474,14 @@
               >
                 03/2016
               </p>
-              <p
+              <!-- <p
                 class="mt-2 font-normal text-gray-500 text-[13px] tracking-[1px]"
               >
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Possimus, reiciendis porro adipisci vitae delectus tempore
                 quisquam esse cum autem totam iure dolor. Vel cumque obcaecati
                 omnis. Eum consectetur veritatis qui!
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -467,30 +508,32 @@
             </a>
           </div>
           <div class="mt-8 lg:mt-0 col-span-12 lg:col-span-9 contact-form">
-            <div class="input-group">
-              <label for="name" class="input-label">Name</label>
-              <input type="text" class="input" name="name" id="name" />
-            </div>
-            <div class="input-group">
-              <label for="name" class="input-label">Email</label>
-              <input type="email" class="input" name="email" id="email" />
-            </div>
-            <div class="input-group">
-              <label for="name" class="input-label">Phone</label>
-              <input type="text" class="input" name="name" id="name" />
-            </div>
-            <div class="input-group">
-              <label for="message" class="input-label">Message</label>
-              <textarea
-                class="input"
-                name="message"
-                id="message"
-                id=""
-                cols="30"
-                rows="5"
-              ></textarea>
-            </div>
-            <button type="button" class="btn bg-danger">Send Message</button>
+            <form>
+              <div class="input-group">
+                <label for="name" class="input-label">Name</label>
+                <input type="text" class="input" name="name" id="name" />
+              </div>
+              <div class="input-group">
+                <label for="name" class="input-label">Email</label>
+                <input type="email" class="input" name="email" id="email" />
+              </div>
+              <div class="input-group">
+                <label for="name" class="input-label">Phone</label>
+                <input type="text" class="input" name="phone" id="phone" />
+              </div>
+              <div class="input-group">
+                <label for="message" class="input-label">Message</label>
+                <textarea
+                  class="input"
+                  name="message"
+                  id="message"
+                  id=""
+                  cols="30"
+                  rows="5"
+                ></textarea>
+              </div>
+              <button type="button" class="btn bg-danger" id="submit-contact-form">Send Message</button>
+            </form>
           </div>
         </div>
       </div>
@@ -506,13 +549,19 @@
         </div>
         <div class="flex mt-4">
           <div class="footer-icons">
-            <img src="./images/svg/linkedin.svg" />
+            <a href="https://www.linkedin.com/in/sajith-p-j/" target="_blank">
+              <img src="./images/svg/linkedin.svg" />
+            </a>
           </div>
           <div class="footer-icons">
-            <img src="./images/svg/instagram.svg" />
+            <a href="https://www.instagram.com/dev_.sajith/" target="_blank">
+              <img src="./images/svg/instagram.svg" />
+            </a>
           </div>
           <div class="footer-icons">
-            <img src="./images/svg/github.svg" />
+            <a href="https://github.com/sajith-pj" target="_blank">
+              <img src="./images/svg/github.svg" />
+            </a>
           </div>
         </div>
       </div>

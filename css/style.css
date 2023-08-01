@@ -7,7 +7,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-
 }
 
 :root {
@@ -34,6 +33,14 @@ body {
 }
 .text-green {
   color: var(--primary-green);
+}
+.error-border {
+  border: 1px solid #f6083cb9;
+}
+.error-msg {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f6083cb9;
 }
 
 /* BUTTONS */
