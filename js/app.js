@@ -70,11 +70,32 @@ contactFormSubmitBtn.addEventListener("click", (event) => {
     { input: email, errorMsg: "Email is required" },
     { input: message, errorMsg: "Message is required" },
   ]);
-  console.log(isValid);
+  if (isValid) return;
+  $.ajax({
+    url: "https://script.google.com/macros/s/AKfycbyrE68xKk2IWcnQgtEb84ur2C2QLNISA9MEbg1KPWqzu8FEw5yedDJHMNzqMDcgemXW/exec",
+    data: $("#contact-form").serialize(),
+    method: "post",
+    success: function (response) {
+      console.log(response);
+      Toastify({
+        text: "🙌  Got your message! I will get back to you soon!",
+        position: "right",
+        gravity: "bottom",
+        style: {
+          background: "#f6083a",
+        },
+      }).showToast();
+    },
+    error: function (err) {
+      alert("Something Error");
+    },
+  });
 });
+
 closeNav.addEventListener("click", () => {
   menu.classList.add("hidden");
 });
+
 btn.addEventListener("click", () => {
   menu.classList.remove("hidden");
   menu.classList.add("load-nav");
